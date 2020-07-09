@@ -13,11 +13,10 @@ for u in range(len(inp)):
                          inp = inp[:u] + znaki2[licznik] + inp[u + 1:]
                 licznik += 1
         licznik = 0
-#print(inp)
 
 plik2 = open(lokalizacja2)
 odpx = plik2.readlines()
 odp = odpx[0].strip()
-#print(odp)
+
 if inp == odp:
         print("Dobrze!!!!!!")
