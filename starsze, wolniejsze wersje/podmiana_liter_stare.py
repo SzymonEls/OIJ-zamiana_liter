@@ -10,7 +10,7 @@ licznik = 0
 for u in range(len(inp)):
         while licznik != len(znaki1):        
                 if inp[u] == znaki1[licznik]:
-                         inp = inp[:u] + znaki2[licznik] + inp[u + 1:]
+                        inp = inp[:u] + znaki2[licznik] + inp[u + 1:]
                 licznik += 1
         licznik = 0
 #print(inp)
